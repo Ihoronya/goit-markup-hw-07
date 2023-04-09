@@ -1,0 +1,46 @@
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+}
+
+.menu-adress {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-list {
+    display: flex;
+    
+}
+.main-nav {
+    display: flex;
+}
+
+.hero {
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 48px;
+
+}
+
+.current-link {
+    color: #404BBF;
+}
+
+
+.current-link::after {
+    content: "";
+    position: absolute;
+    transform: translateY(1px);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+}

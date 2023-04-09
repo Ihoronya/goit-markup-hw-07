@@ -1,0 +1,45 @@
+.container {
+    max-width: 738px;
+    margin: 0 auto;
+}
+
+.menu-adress {
+    display: block;
+}
+
+.menu-list {
+    display: flex;    
+}
+
+.main-nav {
+    display: flex;
+}
+
+.hero {
+    max-width: 768px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-tab-background.jpg);   
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+}
+
+.current-link {
+    color: #404BBF;
+}
+
+
+.current-link::after {
+    content: "";
+    position: absolute;
+    transform: translateY(1px);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+}
