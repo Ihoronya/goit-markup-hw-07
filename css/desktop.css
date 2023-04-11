@@ -37,6 +37,7 @@
 }
 .main-nav {
     display: flex;
+    align-items: center;
 }
 
 .hero {
@@ -101,9 +102,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     border-radius: 4px;
 }
 
-.feature:not(:last-child) {
-    margin-right: 24px;
-}
 
 .current-link {
     color: #404BBF;
@@ -123,9 +121,21 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 
 .section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    gap: 24px;
+}
+
+.section-g {
+    padding-bottom: 120px;
+}
+.advantages {
     padding-top: 120px;
     padding-bottom: 120px;
-    gap: 24px;
+}
+
+.advantages-text {
+    font-weight: 400;
 }
 
 .gallery {
