@@ -126,6 +126,16 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     gap: 24px;
 }
 
+.section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-t {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .section-g {
     padding-bottom: 120px;
 }
